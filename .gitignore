@@ -1,0 +1,22 @@
+# User data and local environments
+/datos/
+/.venv/
+/.venv_anterior_*/
+
+
+# Firmware and Python build artifacts
+/firmware/.pio/
+__pycache__/
+*.py[cod]
+*.zip
+/build/
+/dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary outputs
+*.log
+*.tmp
+*.bak
