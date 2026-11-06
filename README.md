@@ -1,6 +1,6 @@
-<h1 align="center">LM35 Thermometer</h1>
-<p align="center"><b>Desktop acquisition, per-sensor calibration and logging for up to six LM35 sensors on an ESP32.</b><br>
-<img src="https://img.shields.io/badge/Python-3.10%2B-3776ab"> <img src="https://img.shields.io/badge/ESP32-Arduino%20%7C%20PlatformIO-1f6feb"> <img src="https://img.shields.io/badge/LM35-10%20mV%2F%C2%B0C-orange"> <img src="https://img.shields.io/badge/Tests-unittest-brightgreen"></p>
+<p align="center"><img src="docs/img/banner.svg" width="100%" alt="LM35 Multichannel Thermometer"></p>
+
+<p align="center"><img src="https://img.shields.io/badge/Python-3.10%2B-3776ab"> <img src="https://img.shields.io/badge/ESP32-Arduino%20%7C%20PlatformIO-1f6feb"> <img src="https://img.shields.io/badge/LM35-10%20mV%2F%C2%B0C-orange"> <img src="https://img.shields.io/badge/Tests-unittest-brightgreen"></p>
 <p align="center"><a href="#english">English</a> · <a href="#español">Español</a></p>
 
 ## English

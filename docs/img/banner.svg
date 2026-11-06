@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="LM35 Multichannel Thermometer">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#13233f"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".04"/></pattern>
+<radialGradient id="glow" cx=".85" cy=".5" r=".45"><stop offset="0" stop-color="#38bdf8" stop-opacity=".22"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="320" rx="20" fill="url(#bg)"/>
+<rect width="1280" height="320" rx="20" fill="url(#grid)"/>
+<rect width="1280" height="320" rx="20" fill="url(#glow)"/>
+<rect x="64" y="58" width="56" height="5" rx="2.5" fill="#38bdf8"/>
+<g font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif">
+<text x="64" y="128" font-size="46" font-weight="700" fill="#f8fafc">LM35 Multichannel Thermometer</text>
+<text x="64" y="176" font-size="21" fill="#94a3b8">Six-channel acquisition, per-sensor calibration and CSV logging</text>
+<rect x="64" y="232" width="70" height="34" rx="17" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".55"/><text x="99" y="255" font-size="16" fill="#e2e8f0" text-anchor="middle">ESP32</text><rect x="146.0" y="232" width="80" height="34" rx="17" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".55"/><text x="186" y="255" font-size="16" fill="#e2e8f0" text-anchor="middle">Python</text><rect x="237.6" y="232" width="60" height="34" rx="17" fill="#38bdf8" fill-opacity=".12" stroke="#38bdf8" stroke-opacity=".55"/><text x="268" y="255" font-size="16" fill="#e2e8f0" text-anchor="middle">PyQt</text>
+</g>
+<g transform="translate(980 40)" stroke="#38bdf8" fill="#38bdf8" stroke-linecap="round" font-family="Segoe UI, Arial, sans-serif"><rect x="60" y="60" width="120" height="120" rx="10" fill="none" stroke-width="5"/><text x="120" y="132" font-size="34" font-weight="700" text-anchor="middle" stroke="none">MIPS</text><g stroke-width="4"><path d="M85 60 v-25 M85 180 v25 M60 85 h-25 M180 85 h25"/><path d="M120 60 v-25 M120 180 v25 M60 120 h-25 M180 120 h25"/><path d="M155 60 v-25 M155 180 v25 M60 155 h-25 M180 155 h25"/></g></g>
+</svg>
