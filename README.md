@@ -6,7 +6,7 @@
 ## English
 
 ### Overview
-A Python desktop application that acquires, plots, calibrates and records up to six LM35 temperature sensors read by an ESP32. The ESP32 firmware only streams raw ADC values over a checksummed serial protocol; temperature conversion and calibration happen on the PC. Each session keeps a raw CSV, JSON metadata, an event log and copies of sensor placement photos. A DEMO mode runs everything without hardware, and its files are marked `SIMULADO`.
+This Python desktop application acquires, plots, calibrates and records up to six LM35 temperature sensors read by an ESP32. The ESP32 firmware only streams raw ADC values over a checksummed serial protocol; the PC handles temperature conversion and calibration. Each session stores a raw CSV, JSON metadata, an event log and copies of sensor placement photos. A DEMO mode reproduces the workflow without hardware, and its files are marked `SIMULADO`.
 
 > Nominal temperature is only an approximation. The ESP32 ADC has tolerances and non-linearity: calibrate each sensor against a reference before treating values as measurements.
 
@@ -98,7 +98,7 @@ MIT.
 ## Español
 
 ### Descripción general
-Aplicación de escritorio en Python para adquirir, graficar, calibrar y registrar hasta seis sensores LM35 leídos por un ESP32. El firmware solo transmite valores ADC crudos por un protocolo serie con checksum; la conversión a temperatura y la calibración se hacen en la PC. Cada sesión conserva CSV crudo, metadatos JSON, registro de eventos y copias de las fotos de los sensores. El modo DEMO funciona sin hardware y marca sus archivos como `SIMULADO`.
+Esta aplicación de escritorio en Python permite adquirir, graficar, calibrar y registrar hasta seis sensores LM35 leídos por un ESP32. El firmware solo transmite valores ADC crudos por un protocolo serie con checksum; la PC realiza la conversión a temperatura y la calibración. Cada sesión conserva un CSV crudo, metadatos JSON, un registro de eventos y copias de las fotos de los sensores. El modo DEMO reproduce el flujo de trabajo sin hardware y marca sus archivos como `SIMULADO`.
 
 > La temperatura nominal es solo una aproximación: el ADC del ESP32 tiene tolerancias y no linealidades. Calibre cada sensor contra una referencia.
 
